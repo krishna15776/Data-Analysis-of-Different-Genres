@@ -1,0 +1,35 @@
+ Group: group 120
+    
+    Question
+    ========
+    
+    RQ: Is there a difference in the mean of critic_score between
+	different genres of games.
+    
+    Null hypothesis:  There is no difference in the mean of critic_score 
+	between different genres of games.
+    
+    Alternative hypothesis: There is a difference in the mean of critic_score 
+	between different genres of games.
+    
+    Dataset
+    =======
+    
+    URL: https://www.kaggle.com/ashaheedq/video-games-sales-2019?select=vgsales-12-4-2019.csv
+    
+    Column Headings:
+    
+    ```
+    > newdata <- read.csv("vgsales_12_4_2019.csv")
+    > colnames(vgsales_12_4_2019)
+	
+	  [1] "Rank"           "Name"           "basename"      
+      [4] "Genre"          "ESRB_Rating"    "Platform"      
+      [7] "Publisher"      "Developer"      "VGChartz_Score"
+      [10] "Critic_Score"   "User_Score"     "Total_Shipped" 
+      [13] "Global_Sales"   "NA_Sales"       "PAL_Sales"     
+      [16] "JP_Sales"       "Other_Sales"    "Year"          
+      [19] "Last_Update"    "url"            "status"        
+      [22] "Vgchartzscore"  "img_url"
+	 
+    ```
